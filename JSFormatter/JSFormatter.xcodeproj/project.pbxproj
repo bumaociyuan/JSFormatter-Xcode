@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8796471B2C063D00DBEC35 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8796461B2C063D00DBEC35 /* AppKit.framework */; };
+		FB8796491B2C063D00DBEC35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8796481B2C063D00DBEC35 /* Foundation.framework */; };
+		FB87964E1B2C063D00DBEC35 /* JSFormatter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FB87964D1B2C063D00DBEC35 /* JSFormatter.xcscheme */; };
+		FB8796511B2C063D00DBEC35 /* JSFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8796501B2C063D00DBEC35 /* JSFormatter.m */; };
+		FB8796541B2C063D00DBEC35 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB8796431B2C063D00DBEC35 /* JSFormatter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSFormatter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8796461B2C063D00DBEC35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FB8796481B2C063D00DBEC35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FB87964C1B2C063D00DBEC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB87964D1B2C063D00DBEC35 /* JSFormatter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = JSFormatter.xcscheme; path = JSFormatter.xcodeproj/xcshareddata/xcschemes/JSFormatter.xcscheme; sourceTree = SOURCE_ROOT; };
+		FB87964F1B2C063D00DBEC35 /* JSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSFormatter.h; sourceTree = "<group>"; };
+		FB8796501B2C063D00DBEC35 /* JSFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSFormatter.m; sourceTree = "<group>"; };
+		FB8796521B2C063D00DBEC35 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8796411B2C063D00DBEC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8796471B2C063D00DBEC35 /* AppKit.framework in Frameworks */,
+				FB8796491B2C063D00DBEC35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB87963A1B2C063D00DBEC35 = {
+			isa = PBXGroup;
+			children = (
+				FB87964A1B2C063D00DBEC35 /* JSFormatter */,
+				FB8796451B2C063D00DBEC35 /* Frameworks */,
+				FB8796441B2C063D00DBEC35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8796441B2C063D00DBEC35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8796431B2C063D00DBEC35 /* JSFormatter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8796451B2C063D00DBEC35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8796461B2C063D00DBEC35 /* AppKit.framework */,
+				FB8796481B2C063D00DBEC35 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB87964A1B2C063D00DBEC35 /* JSFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				FB87964F1B2C063D00DBEC35 /* JSFormatter.h */,
+				FB8796501B2C063D00DBEC35 /* JSFormatter.m */,
+				FB8796521B2C063D00DBEC35 /* NSObject_Extension.h */,
+				FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */,
+				FB87964B1B2C063D00DBEC35 /* Supporting Files */,
+			);
+			path = JSFormatter;
+			sourceTree = "<group>";
+		};
+		FB87964B1B2C063D00DBEC35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB87964C1B2C063D00DBEC35 /* Info.plist */,
+				FB87964D1B2C063D00DBEC35 /* JSFormatter.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8796421B2C063D00DBEC35 /* JSFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8796571B2C063D00DBEC35 /* Build configuration list for PBXNativeTarget "JSFormatter" */;
+			buildPhases = (
+				FB87963F1B2C063D00DBEC35 /* Sources */,
+				FB8796401B2C063D00DBEC35 /* Resources */,
+				FB8796411B2C063D00DBEC35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSFormatter;
+			productName = JSFormatter;
+			productReference = FB8796431B2C063D00DBEC35 /* JSFormatter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB87963B1B2C063D00DBEC35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zztx;
+				TargetAttributes = {
+					FB8796421B2C063D00DBEC35 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FB87963E1B2C063D00DBEC35 /* Build configuration list for PBXProject "JSFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB87963A1B2C063D00DBEC35;
+			productRefGroup = FB8796441B2C063D00DBEC35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8796421B2C063D00DBEC35 /* JSFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8796401B2C063D00DBEC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB87964E1B2C063D00DBEC35 /* JSFormatter.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB87963F1B2C063D00DBEC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8796511B2C063D00DBEC35 /* JSFormatter.m in Sources */,
+				FB8796541B2C063D00DBEC35 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB8796551B2C063D00DBEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FB8796561B2C063D00DBEC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		FB8796581B2C063D00DBEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JSFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		FB8796591B2C063D00DBEC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JSFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB87963E1B2C063D00DBEC35 /* Build configuration list for PBXProject "JSFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8796551B2C063D00DBEC35 /* Debug */,
+				FB8796561B2C063D00DBEC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8796571B2C063D00DBEC35 /* Build configuration list for PBXNativeTarget "JSFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8796581B2C063D00DBEC35 /* Debug */,
+				FB8796591B2C063D00DBEC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB87963B1B2C063D00DBEC35 /* Project object */;
+}
