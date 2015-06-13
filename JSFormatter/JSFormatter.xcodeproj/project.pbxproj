@@ -12,6 +12,7 @@
 		FB87964E1B2C063D00DBEC35 /* JSFormatter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FB87964D1B2C063D00DBEC35 /* JSFormatter.xcscheme */; };
 		FB8796511B2C063D00DBEC35 /* JSFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8796501B2C063D00DBEC35 /* JSFormatter.m */; };
 		FB8796541B2C063D00DBEC35 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */; };
+		FB87965D1B2C0D6400DBEC35 /* JSFormatter+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB87965C1B2C0D6400DBEC35 /* JSFormatter+helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		FB8796501B2C063D00DBEC35 /* JSFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSFormatter.m; sourceTree = "<group>"; };
 		FB8796521B2C063D00DBEC35 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		FB87965A1B2C0C3200DBEC35 /* XCFXcodePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFXcodePrivate.h; sourceTree = "<group>"; };
+		FB87965B1B2C0D6400DBEC35 /* JSFormatter+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSFormatter+helper.h"; sourceTree = "<group>"; };
+		FB87965C1B2C0D6400DBEC35 /* JSFormatter+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSFormatter+helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,9 @@
 			children = (
 				FB87964F1B2C063D00DBEC35 /* JSFormatter.h */,
 				FB8796501B2C063D00DBEC35 /* JSFormatter.m */,
+				FB87965B1B2C0D6400DBEC35 /* JSFormatter+helper.h */,
+				FB87965C1B2C0D6400DBEC35 /* JSFormatter+helper.m */,
+				FB87965A1B2C0C3200DBEC35 /* XCFXcodePrivate.h */,
 				FB8796521B2C063D00DBEC35 /* NSObject_Extension.h */,
 				FB8796531B2C063D00DBEC35 /* NSObject_Extension.m */,
 				FB87964B1B2C063D00DBEC35 /* Supporting Files */,
@@ -155,6 +162,7 @@
 			files = (
 				FB8796511B2C063D00DBEC35 /* JSFormatter.m in Sources */,
 				FB8796541B2C063D00DBEC35 /* NSObject_Extension.m in Sources */,
+				FB87965D1B2C0D6400DBEC35 /* JSFormatter+helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +287,7 @@
 				FB8796591B2C063D00DBEC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
