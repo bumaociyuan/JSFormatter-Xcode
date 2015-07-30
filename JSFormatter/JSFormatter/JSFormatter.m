@@ -59,7 +59,7 @@ typedef NS_ENUM(NSInteger, JSFormatterFileType) {
         NSMenu *jsFormatterMenu = [NSMenu new];
         jsFormatterItem.submenu = jsFormatterMenu;
 
-        NSMenuItem *formatCurrentJSFileItem = [[NSMenuItem alloc]initWithTitle:@"Format Active File" action:@selector(formatCurrentJSFileItemPressed) keyEquivalent:@""];
+        NSMenuItem *formatCurrentJSFileItem = [[NSMenuItem alloc]initWithTitle:@"Format Active JS File" action:@selector(formatCurrentJSFileItemPressed) keyEquivalent:@""];
         formatCurrentJSFileItem.target = self;
 
         [jsFormatterMenu addItem:formatCurrentJSFileItem];
