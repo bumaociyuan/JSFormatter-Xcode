@@ -27,7 +27,7 @@ To uninstall, just remove the plugin from ~/Library/Application Support/Develope
 
 ##How does it work?
 All the commands are in the menu `Edit` > `JSFormatter`.
-Click `Format Active File` to format 
+Click `Format Active JS File` to format 
 
 ##Shortcut
 You can create keyboard shortcuts for the menu items in the [Keyboard Preferences](http://support.apple.com/kb/ph3957) of OS X System Preferences.
@@ -38,6 +38,6 @@ Thanks to the [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrusti
 ##TODO
 
 1. ~~Install via Alcatraz~~
-2. Add `Format Selected Files`
-3. Add `Format Selected Lines`
+2. Add `Format Selected JS Files`
+3. Add `Format Selected JS Lines`
 4. Xcode 7 Support
