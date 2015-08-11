@@ -24,6 +24,8 @@ To uninstall, just remove the plugin from ~/Library/Application Support/Develope
 * Install Alcatraz.
 * Search `JSFormatter` click the icon on left to install.
 
+##Get Xcode UUID
+`defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID`
 
 ##How does it work?
 All the commands are in the menu `Edit` > `JSFormatter`.
