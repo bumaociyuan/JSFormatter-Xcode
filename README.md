@@ -43,3 +43,6 @@ Thanks to the [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrusti
 2. Add `Format Selected JS Files`
 3. Add `Format Selected JS Lines`
 4. Xcode 7 Support
+
+##License
+The MIT License (MIT)
