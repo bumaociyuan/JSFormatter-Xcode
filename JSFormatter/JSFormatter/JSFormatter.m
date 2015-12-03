@@ -81,6 +81,9 @@ typedef NS_ENUM(NSInteger, JSFormatterFileType) {
         NSArray *types = @[@"js",@"html",@"css"];
         if ([types indexOfObject:document.fileURL.pathExtension] == NSNotFound) {
             //not support other file types
+            NSAlert *alert = [[NSAlert alloc] init];
+            [alert setMessageText:@"Only support js\\html\\css now"];
+            [alert runModal];
             return NO;
         }
         
