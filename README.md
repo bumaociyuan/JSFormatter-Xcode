@@ -9,6 +9,11 @@ Xcode plug to format js html css files using [js-beautify](https://github.com/be
 ##Screenshot
 ![image](https://raw.githubusercontent.com/bumaociyuan/JSFormatter-Xcode/master/screenshot.gif)
 
+##Support Extension
+* js
+* css
+* html
+* json
 
 ##Installation
 
