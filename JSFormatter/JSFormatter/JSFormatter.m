@@ -119,6 +119,9 @@ typedef NS_ENUM(NSInteger, JSFormatterFileType) {
     [task setStandardOutput:outputPipe];
 
     //3
+    if ([pathExtension isEqualToString:@"json"]) {
+        pathExtension = @"js";
+    }
     NSString *command = [NSString stringWithFormat:@"/usr/local/bin/%@-beautify",pathExtension];
     task.arguments = @[command, path];
 
