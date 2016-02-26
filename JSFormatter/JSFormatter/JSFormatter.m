@@ -78,11 +78,11 @@ typedef NS_ENUM(NSInteger, JSFormatterFileType) {
 
     if (textStorage.string.length > 0) {
         
-        NSArray *types = @[@"js",@"html",@"css",@"json"];
+        NSArray *types = @[@"js",@"html",@"css",@"json",@"htm"];
         if ([types indexOfObject:document.fileURL.pathExtension] == NSNotFound) {
             //not support other file types
             NSAlert *alert = [[NSAlert alloc] init];
-            [alert setMessageText:@"Only support js\\html\\css\\json now"];
+            [alert setMessageText:@"Only support js\\html\\htm\\css\\json now"];
             [alert runModal];
             return NO;
         }

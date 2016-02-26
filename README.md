@@ -12,7 +12,7 @@ Xcode plug to format js html css files using [js-beautify](https://github.com/be
 ##Support Extension
 * js
 * css
-* html
+* html\htm
 * json
 
 ##Installation
