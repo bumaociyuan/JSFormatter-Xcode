@@ -5,6 +5,7 @@ Xcode plug to format js html css files using [js-beautify](https://github.com/be
 * [Node.js](https://nodejs.org/)
 * [js-beautify](https://github.com/beautify-web/js-beautify)
 * Xcode 6.0+ on OS X 10.10+.
+* Xcode 8 [use `update_xcode_plugins`](https://github.com/inket/update_xcode_plugins)
 
 ##Screenshot
 ![image](https://raw.githubusercontent.com/bumaociyuan/JSFormatter-Xcode/master/screenshot.gif)
