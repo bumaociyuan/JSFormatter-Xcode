@@ -1,13 +1,13 @@
 # JSFormatter-Xcode
 Xcode plug to format js html css files using [js-beautify](https://github.com/beautify-web/js-beautify)
 
-##Requirement
+## Requirement
 * [Node.js](https://nodejs.org/)
 * [js-beautify](https://github.com/beautify-web/js-beautify)
 * Xcode 6.0+ on OS X 10.10+.
 * Xcode 8 [use `update_xcode_plugins`](https://github.com/inket/update_xcode_plugins)
 
-##Screenshot
+## Screenshot
 ![image](https://raw.githubusercontent.com/bumaociyuan/JSFormatter-Xcode/master/screenshot.gif)
 
 ##Support Extension
@@ -16,7 +16,7 @@ Xcode plug to format js html css files using [js-beautify](https://github.com/be
 * html\htm
 * json
 
-##Installation
+## Installation
 
 #### Build from source code 
 
@@ -30,25 +30,25 @@ To uninstall, just remove the plugin from ~/Library/Application Support/Develope
 * Install Alcatraz.
 * Search `JSFormatter` click the icon on left to install.
 
-##Get Xcode UUID
+## Get Xcode UUID
 `defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID`
 
-##How does it work?
+## How does it work?
 All the commands are in the menu `Edit` > `JSFormatter`.
 Click `Format Active JS File` to format 
 
-##Shortcut
+## Shortcut
 You can create keyboard shortcuts for the menu items in the [Keyboard Preferences](http://support.apple.com/kb/ph3957) of OS X System Preferences.
 
-##Thanks
+## Thanks
 Thanks to the [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode) since I used some code from it.
 
-##TODO
+## TODO
 
 1. ~~Install via Alcatraz~~
 2. Add `Format Selected JS Files`
 3. Add `Format Selected JS Lines`
 4. ~~Xcode 7 Support~~
 
-##License
+## License
 The MIT License (MIT)
