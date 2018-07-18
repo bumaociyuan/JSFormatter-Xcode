@@ -1,3 +1,5 @@
+# No longer maintained
+
 # JSFormatter-Xcode
 Xcode plug to format js html css files using [js-beautify](https://github.com/beautify-web/js-beautify)
 
